@@ -6,30 +6,24 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".view.tatacara.berwudhu.BerwudhuActivity">
 
     <Button
-        android:id="@+id/tataCara_id"
+        android:id="@+id/syaratBerwudhu_Id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tata Cara" />
+        android:text="Syarat Berwudhu" />
 
     <Button
-        android:id="@+id/video_id"
+        android:id="@+id/rukunWudhu_Id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Video" />
+        android:text="Rukun Wudhu" />
 
     <Button
-        android:id="@+id/tentang_id"
+        android:id="@+id/caraBerwudhu_Id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tentang" />
-
-    <Button
-        android:id="@+id/tutup_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tutup" />
+        android:text="Cara Berwudhu" />
 
 </LinearLayout>

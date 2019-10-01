@@ -9,6 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".view.tatacara.shalat.CaraShalatActivity"></activity>
+        <activity android:name=".view.tatacara.shalat.RukunShalatActivity" />
+        <activity android:name=".view.tatacara.tayamum.CaraTayamumActivity" />
+        <activity android:name=".view.tatacara.tayamum.RukunTayamumActivity" />
+        <activity android:name=".view.tatacara.berwudhu.CaraBerWudhuActivity" />
+        <activity android:name=".view.tatacara.berwudhu.RukunWudhuActivity" />
+        <activity android:name=".view.tatacara.shalat.SyaratShalatActivity" />
+        <activity android:name=".view.tatacara.tayamum.SyaratTayamumActivity" />
+        <activity android:name=".view.tatacara.berwudhu.BerwudhuActivity" />
+        <activity android:name=".view.tatacara.berwudhu.SyaratBerwudhuActivity" />
+        <activity android:name=".view.tentang.TentangActivity" />
+        <activity android:name=".view.video.VideoActivity" />
+        <activity android:name=".view.tatacara.TataCaraActivity" />
+        <activity android:name=".view.tentang.PengertianShalatActivity" />
+        <activity android:name=".view.tentang.PengertianTayamumActivity" />
+        <activity android:name=".view.tentang.PengertianWudhuActivity" />
+        <activity android:name=".view.video.VideoShalatActivity" />
+        <activity android:name=".view.video.VideoTayamumActivity" />
+        <activity android:name=".view.video.VideoWudhuActivity" />
+        <activity android:name=".view.tatacara.shalat.ShalatActivity" />
+        <activity android:name=".view.tatacara.tayamum.TayamumActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
