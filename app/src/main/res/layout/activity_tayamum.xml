@@ -4,25 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_splashscreen"
     android:orientation="vertical"
     tools:context=".view.tatacara.tayamum.TayamumActivity">
 
-    <Button
-        android:id="@+id/syaratTayamum_Id"
-        android:text="Syarat Tayamum"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/rukunTayamum_Id"
-        android:text="Rukun Tayamum"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-    <Button
-        android:id="@+id/caraTayamum_Id"
-        android:text="Cara Tayamum"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/syaratTayamum_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Syarat Tayamum"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/rukunTayamum_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Rukun Tayamum"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/caraTayamum_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Cara Tayamum"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

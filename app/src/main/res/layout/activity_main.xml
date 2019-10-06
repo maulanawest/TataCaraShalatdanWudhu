@@ -4,32 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:background="@drawable/bg_splashscreen"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/tataCara_id"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tata Cara" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/video_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Video" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-    <Button
-        android:id="@+id/tentang_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tentang" />
+            <Button
+                android:id="@+id/tataCara_id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp"
+                android:text="Tata Cara" />
 
-    <Button
-        android:id="@+id/tutup_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tutup" />
+            <Button
+                android:id="@+id/video_id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Video"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tentang_id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Tentang"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tutup_id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Tutup"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

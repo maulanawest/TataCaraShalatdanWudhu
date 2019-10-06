@@ -4,26 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:background="@drawable/bg_splashscreen"
     android:orientation="vertical"
     tools:context=".view.tatacara.berwudhu.BerwudhuActivity">
 
-    <Button
-        android:id="@+id/syaratBerwudhu_Id"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Syarat Berwudhu" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/rukunWudhu_Id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Rukun Wudhu" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-    <Button
-        android:id="@+id/caraBerwudhu_Id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cara Berwudhu" />
+            <Button
+                android:id="@+id/syaratBerwudhu_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Syarat Berwudhu"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/rukunWudhu_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Rukun Wudhu"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/caraBerwudhu_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Cara Berwudhu"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

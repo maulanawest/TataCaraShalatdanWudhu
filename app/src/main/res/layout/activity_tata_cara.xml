@@ -4,35 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_splashscreen"
+    android:orientation="vertical"
     tools:context=".view.tatacara.TataCaraActivity">
 
     <LinearLayout
-        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/berwudhu_Id"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Berwudhu" />
+            android:background="@drawable/splash_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-        <Button
-            android:id="@+id/tayamum_Id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tayamum" />
+            <Button
+                android:id="@+id/berwudhu_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp"
+                android:text="Berwudhu"/>
 
-        <Button
-            android:id="@+id/shalat_Id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Shalat" />
+            <Button
+                android:id="@+id/tayamum_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Tayamum"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/shalat_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Shalat"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>

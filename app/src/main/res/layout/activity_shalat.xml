@@ -4,24 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_splashscreen"
     android:orientation="vertical"
     tools:context=".view.tatacara.shalat.ShalatActivity">
 
-    <Button
-        android:id="@+id/syaratShalat_Id"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Syarat Shalat" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/rukunShalat_Id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Rukun Shalat" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-    <Button
-        android:id="@+id/caraShalat_Id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cara Shalat" />
+            <Button
+                android:id="@+id/syaratShalat_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Syarat Shalat"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/rukunShalat_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Rukun Shalat"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/caraShalat_Id"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bt_btn"
+                android:text="Cara Shalat"
+                android:textColor="@color/whitePrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </LinearLayout>
