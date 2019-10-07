@@ -54,4 +54,9 @@ public class TataCaraActivity extends AppCompatActivity {
             }
         }
     };
+
+    public void btn_BackTatacara(View view) {
+
+        super.onBackPressed();
+    }
 }

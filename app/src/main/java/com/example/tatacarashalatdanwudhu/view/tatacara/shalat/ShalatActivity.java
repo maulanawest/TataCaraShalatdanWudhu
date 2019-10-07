@@ -50,4 +50,9 @@ public class ShalatActivity extends AppCompatActivity {
             }
         }
     };
+
+    public void btn_BackShalat(View view) {
+
+        onBackPressed();
+    }
 }

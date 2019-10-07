@@ -47,4 +47,9 @@ public class TayamumActivity extends AppCompatActivity {
             }
         }
     };
+
+    public void btn_BackTayamum(View view) {
+
+        super.onBackPressed();
+    }
 }

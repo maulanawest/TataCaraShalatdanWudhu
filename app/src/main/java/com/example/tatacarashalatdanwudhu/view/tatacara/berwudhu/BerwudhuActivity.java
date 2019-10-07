@@ -48,4 +48,9 @@ public class BerwudhuActivity extends AppCompatActivity {
             }
         }
     };
+
+    public void btn_BackBerwudhu(View view) {
+
+        super.onBackPressed();
+    }
 }

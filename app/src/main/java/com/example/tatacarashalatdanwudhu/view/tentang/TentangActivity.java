@@ -45,4 +45,9 @@ public class TentangActivity extends AppCompatActivity {
             }
         }
     };
+
+    public void btn_BackTentang(View view) {
+
+        super.onBackPressed();
+    }
 }
