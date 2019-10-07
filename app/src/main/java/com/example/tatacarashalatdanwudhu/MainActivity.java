@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(goToActivity);
                     break;
                 case R.id.tutup_id:
-//                    goToActivity = new Intent(getApplicationContext(), BerwudhuActivity.class);
-//                    startActivity(goToActivity);
+
+                    MessageAleertDialog.alet_message(MainActivity.this, "Confirm", "Are you sure?");
                     break;
 
             }
