@@ -9,8 +9,8 @@
     tools:context=".view.tatacara.berwudhu.RukunWudhuActivity">
 
     <Button
-        android:layout_width="12dp"
-        android:layout_height="19dp"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="10dp"
@@ -60,7 +60,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="SYARAT WUDHU"
+                        android:text="@string/rukun_wudhu"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -68,7 +68,29 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="@string/syaratwudu" />
+                        android:text="@string/detail_rukunwudhu"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="Shahih Al Bukhari, 52 : 'Diriwayatkan dari Umar Bin Khattab RA, dia berkata bahwa Rasulullah SAW bersabda,'Sesungguhnya segala amal perbuatan itu bergantung pada niat (maksud) nya"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="Sedangkan tentang tertib, seperti yang dijelaskan dalam kitab : l-Fiqh al-Manhaji, Juz 1, Hal.56 : 'Kalangan syafi'iyah ber-hujjah (berdalil) dengan berbagai hadis shahih yang diriwayatkan dari beberapa kelompok sahabat tentang cara Nabi SAW berwudhu. Semua mengatakan bahwa Nabi SAW berwudhu secara berurutan (tertib). Padahal jumlah mereka banyak, tempat mereka melihat Nabi berwudhu berbeda-beda, mereka sering berselisih tentang cara Nabi berwudhu apakah satu, dua ataukah tiga kali dan sebagainya. Akan tetapi tyidak terbukti dengan aneka macam perbedaan itu cara Nabi berwudhu dengan tidak tertib. Pekerjaan Nabi SAW itu merupakan penjelasan bagaimana wudhu yang diperintahkan itu. Andaikata meninggalkan tertib itu diperbolehkan, niscaya Nabi Muhammad SAW akan meninggalkannya pada satu waktu untuk menjelaskan kebolehannya, sebagaimana beliau pernah meninggalkan mengulang-ulang (basuhan dan usapannya) pada waktu-waktu tertentu"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/Enamrukunwudhu"
+                        android:textSize="18sp"/>
                 </LinearLayout>
 
             </LinearLayout>

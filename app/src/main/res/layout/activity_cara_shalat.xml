@@ -9,8 +9,8 @@
     tools:context=".view.tatacara.shalat.CaraShalatActivity">
 
     <Button
-        android:layout_width="12dp"
-        android:layout_height="19dp"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="10dp"
@@ -60,15 +60,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="SYARAT WUDHU"
+                        android:text="@string/cara_shalat"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingTop="10dp"
-                        android:text="@string/syaratwudu" />
+                        android:paddingTop="10dp"/>
                 </LinearLayout>
 
             </LinearLayout>

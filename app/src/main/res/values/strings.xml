@@ -7,5 +7,68 @@
     <string name="pengertian_shalat">PENGERTIAN SHALAT</string>
     <string name="detailpengertianwudhu">Wudhu adalah salah satu cara menyucikan anggota tubuh dengan air. Seorang muslim diwajibkan bersuci setiap akan melaksanakan salat. Berwudu bisa pula menggunakan debu yang disebut dengan tayammum.</string>
     <string name="pengertian_wudhu">PENGERTIAN WUDHU</string>
-    <string name="syaratwudu">Syarat wudhu ada 10, yaitu: \n[1] Islam\n[2] tamyiz (bisa membedakan yang baik dan benar)\n[3] bersih dari haidh dan nifas\n[4] bersih dari yang menghalangi air meresap ke kulit\n[5] tidak ada anggota wudhu yang merubah air suci\n[6] mengetahui wajib wudhu\n[7] tidak meyakini sunnah sebagai wajib wudhu\n[8] airnya suci\n[9] masuk waktu, dan\n[10] muwalah bagi yang sering berhadats. \n\n\n\n Oleh: Syaikh Salim bin Sumair Al-Hadhrami Asy-Syafi’i</string>
+    <string name="cara_wudhu">CARA WUDHU</string>
+    <string name="deskrip1">1. Mencuci kedua telapak tangan sebanyak tiga kali;\n\nDengan gerakan menyeka pada sela-sela jari telapak tangan yang dimulai dari tangan kanan kemudian tangan kiri kemudian diriringi dengan membaca doa:\n\n
+
+        اَلْحَمْدُ ِللهِ الَّذِي جَعَلَ اْلمَاءَ طَهُوْرًا
+
+\n\nAllhamdulillahilaziy ja alal maa tohuro.\nArtinya :\nDengan nama Allah yang Maha Pemurah Lagi Maha Penyayang. Segala Puji bagi Allah yang menjadikan air itu suci.</string>
+    <string name="deskrip2">2. Berkumur ;\n\nBerkumur sebanyak 3 kali, Dengan gerakan utuh membersihkan mulut (bahkan dari sisa-sisa makanan yang masih ada pada mulut).(Baca : Sikat Gigi Saat Puasa, Hukum Menyikat Gigi Saat Puasa)\n\n\
+
+        اللَّهُمَّ اَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ
+
+ \n\nAllahumma aini alay dzikrika wasukrika wahusni ibadatika.\n Artinya :\nYa Allah, bantulah aku supaya aku dapat berzikir kepadaMu, dan bersyukur kepadaMu, dan perelok ibadah kepadaMu.</string>
+    <string name="deskrip3">3. Membasuh hidung ;\n\nMembasuh lubang hidung secara menyeluruh, sebanyak 3 kali gerakan.\n\n
+
+        اَللَّهُمَّ أَرِحْنِي رَائِحَة الجَـنَّةْ
+\n\nAllahuma arihniy roihata janat.\nArtinya :\nYa Allah, berilah aku ciuman daripada haruman bau Syurga.</string>
+    <string name="deskrip4">4. Membasuh Muka ;\nMembasuh seluruh permukaan wajah dengan rata, sebanyak 3 kali gerakan memutar sekeliling wajah.\n\n
+
+        اَللَّهُمَّ بَيِّضْ وَجْهِى يَوْمَ تَبْيَضُّ وُجُوْهٌ وَتَسْوَدُّ وُجُوْهٌ
+\n\nAllahuma bayadh wajhi yawmatabyaht wujudhu wataswadu wujdhu.\n Artinya :\nYa Allah, putihkanlah wajahku pada hari putihnya wajah-wajah dan hitamnya wajah-wajah.</string>
+    <string name="deskrip5">5. Membasuh kedua tangan ;\nMembasuh kedua tangan hingga mencapai siku, sebanyak 3 kali gerakan memutar dan menyeluruh ke permukaan tangan.\nTangan kanan\n\n
+
+        اَللَّهُمَّ اَعْطِنِى كِتاَبِى بِيَمِيْنِى وَحَاسِبْنِى حِسَاباً يَسِيْرًا
+\n\n\Allahumma a’tini kitabiy biyamiyni wahasibni hisaban yasiyron.\n Artinya :\nYa Allah. berikanlah kepadaku kitabku dari sebelah kanan dan hitunglah amalanku dengan perhitungan yang mudah.\nTangan kiri\n\n
+
+        اَللَّهُمَّ لاَ تُعْطِنِى كِتاَبِى مِنْ يَساَرِىْ وَ لاَ مِنْ وَرَاءِ ظَهْرِى
+\n\nAllahumma latutini kitabi minyasariy wala minwaroi tohriy.\n Artinya :\nYa Allah. aku berlindung denganMu dari menerima kitab amalanku dari sebelah kiri atau dari sebelah belakang.</string>
+    <string name="deskrip6">6. Membasuh kepala mulai dari ubun-ubun ;\nMembasuh kening hingga ujung kening (ubun-ubun) sampai sebagian kepala, sebanyak 3 kali gerakan menyeluruh.\n\n
+
+        اَللَّهُمَّ حَرِّمْ شَعْرِيْ وَبَشَرِيْ عَلَى النَّارِ
+\n\nAllahumma harom sa riy wabasariy a la nnari.\n Artinya :\nYa Allah, haramkan rambutku dan kulit kepalaku dari pada neraka</string>
+    <string name="deskrip7">7. Membasuh keduan telinga ;\nMembasuh kedua tengila baik itu bagian dalam maupun luar telinga (daun telinga) hingga menyeluruh ke bagian telinga, sebanyak 3 kali gerakan.\n\n
+
+اَللَّهُمَّ اجْعَلْنِي مِنَ الَّذِيْنَ يَسْتَمِعُوْنَ اْلقَوْلَ فَيَتَّبِعُوْنَ أَحْسَنَه</string>
+    <string name="deskrip8">8. Mencuci kedua kaki ;\nMembasuh kedua kaki dan diusahakan menyeluruh tidak pada bagian depan saja, basuh hingga ke seluruh kaki hingga ke mata kaki.\nKaki kanan\n\n
+
+        اَللَّهُمَّ ثَبِّتْ قدَمِي عَلَى الصِّرَاطِ يَوْمَ تَزِلُّ فِيْهِاْ لاَقْدَامِ
+\n\n\Allahumma tabbatqodamiy a lasoroti yawmatazilu fiyhil laqdami.\n\nArtinya :\n\Yaa Allah, yaa Tuhanku,tetapkanlah tumuitku diatas titian yang lurus bersama tumit hamba-hamba-Mu yang shaleh.\nKaki kiri\n\n
+
+        اَللّهمَّ اِنِّى اَنْتُجِلَ قَدَمِ عَلَى صِرَاطِ فِى النَّارْ يَوْمَ تِجِلُ اَقْدَمِ المُنَافِقِيْنْ وَ المُشْرِكِين
+\n\nAllahuma iniyantujila qodamia la sirotifinari yawmatijilu akdami munafikiyn wamusyrikiyni.\n Artinya :\n Ya Allah yaa Tuhanku,sesungguhnya aku-berlindung kepada-Mu dari keterpelesetan tumuitku dari atas jalan neraka,pada hari dikala terpeleset tumit orang-orang kafir.</string>
+    <string name="rukun_wudhu">RUKUN WUDHU</string>
+    <string name="detail_rukunwudhu">Rukun wudhu atau fardhu wudhu ada 6, berdasarkan ayat Al Quran diatas ada 4 rukun, lalu fuqaha menambahkan 2 rukun yakni niat dan tertib. Tentang niat, para ulama berpedoman pada Hadist Nabi Muhammad SAW :</string>
+    <string name="Enamrukunwudhu">Berikut ini 6 rukun wudhu atau fardhu wudhu yang perlu dipahami :\n\n
+1. Niat dalam hati dan sunnah untuk dilafadzkan. Niat, ketika membasuh muka. Lafadz niat wudhu :\n\nنَوَيْت اْلوُضُوْءَلِرَفْعِ اْلحَدَثِ اْلَا صْغَرِفَرْضًا ِللهِ تَعَا لَي\n\n
+\Nawaitul Wudluu a Liraf il Hadastil Ashghari Fardlan Lillahita ala\nArtinya : Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah\n\n
+2. Membasuh Muka; Membasuh seluruh muka (mulai dari tumbuhnya rambut kepala hingga bawah dagu, dan dari telinga kanan hingga telinga kiri)\n\n
+3. Membasuh Tangan; Membasuh tangan kanan dan tangan kiri sampai siku\n\n
+4. Mengusap Kepala; Mengusap sebagian rambut kepala\n\n
+5. Membasuh Kaki; Membasuh kedua belah kaki sampai mata kaki\n\n
+6. Tertib (berurutan), artinya mendahulukan mana yang harus dahulu dan mengakhirkan mana yang harus diakhirkan\n"</string>
+    <string name="rukun_tayamum">RUKUN TAYAMUM</string>
+    <string name="detailRukunTayamum"><b>Rukun Tayamum ada 5: </b>\n[1] Memindahkan debu dari bumi atau dari tempat lain ke anggota tubuh yang diusap. maka tidak sah jika tayammum tanpa ada pemindahan debu dari orang yang tayammum maupun orang lain seperti terkena debu dari angin maka tidak syah tayammumnya.\n[2] Niat. dalam tayammum antara lain berniat untuk diperbolehkannya melakukan sholat, thawaf, memagng Al Quran atau apapun yang dibuthkan wudhu didalam ibadah itu.\n[3] Mengusap Wajah. Batas-batas mengusap wajah didalam tayammum itu mirip batas membasuh wajah dalam wudhu.\n[4] Mengusap Kedua Tangan Sampai ke Siku Siku. Didalam mazhab Imam Syafii,mengusap tangan dalam tayammum itu sama halnya membasuh tangan dalam wudhu yaitu dari ujung jari sampai kedua siku siku.\n[5] Tertib. yakni mendahulukan setiap rukun/fardhu yang memang didahulukan tanpa melompati rukun rukun diatas.</string>
+    <string name="rukun_sah_shalat">RUKUN SAH SHALAT</string>
+    <string name="rukun_shalat_ada_12"><b>Rukun Shalat ada 12 :</b>\n[1] Niat.\n[2] Berdiri bagi yang mampu.\n[3] Membaca takbiratul ikhram.\n[4]Setiap raka at membaca surat al-fatihah.\n[5] Ruku secara tumaninah.\n[6] Itidal secara tumaninah.\n[7]Sujud secara tumaninah.\n[8] Duduk antara dua sujud secara tumaninah.\n[9] Duduk tasyahud akhir.\n[10] Membaca sholawat nabi.\n[11] Membaca Salam.\n[12] Tertib. </string>
+    <string name="cara_tayamum">CARA TAYAMUM</string>
+    <string name="detailtayamum">[1] Siapkan tanah berdebu atau debu yang bersih.\n
+[2] Dengan menghadap kiblat, ucapkan basmalah lalu letakkan kedua telapak tangan pada debu dengan posisi jari-jari tangan dirapatkan.\n
+[3] Lalu usapkan kedua telapak tangan pada seluruh wajah disertai dengan niat dalam hati, salah satunya dengan bacaan niat tayamum berikut:\n NAWAITUT TAYAMMUMA LISSTIBAAHATISH SHALAATI FARDLOL LILLAAHI TA’AALAA Artinya: Aku niat melakukan tayamum agar dapat mengerjakan shalat, fardlu karena Allah ta ‘ala. Berbeda dengan wudhu, dalam tayamum tidak disyaratkan untuk mengusapkan debu pada bagian-bagian yang ada di bawah rambut atau bulu wajah, baik yang tipis maupun yang tebal. Yang dianjurkan adalah berusaha meratakan debu pada seluruh bagian wajah.\n
+[4] Letakkan kembali telapak tangan pada debu. Kali ini jari-jari direnggangkan serta cincin yang ada pada jari (jika ada) dilepaskan sementara.\n
+[5] Kemudian tempelkan telapak tangan kiri pada punggung tangan kanan, sekiranya ujung-ujung jari dari salah satu tangan tidak melebihi ujung jari telunjuk dari tangan yang lain.\n
+[6] Dari situ usapkan telapak tangan kiri ke punggung lengan kanan sampai ke bagian siku. Lalu, balikkan telapak tangan kiri tersebut ke bagian dalam lengan kanan, kemudian usapkan hingga ke bagian pergelangan.\n
+[7] Sekarang, usapkan bagian dalam jempol kiri ke bagian punggung jempol kanan. Selanjutnya, lakukan hal yang sama pada tangan kiri.\n
+[8] Terakhir, pertemukan kedua telapak tangan dan usap-usapkan di antara jari-jarinya.</string>
+    <string name="cara_shalat">CARA SHALAT</string>
 </resources>

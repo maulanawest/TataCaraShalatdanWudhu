@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/bg_splashscreen"
+    android:orientation="vertical"
     tools:context=".view.tatacara.berwudhu.SyaratBerwudhuActivity">
 
     <Button
-        android:layout_width="12dp"
-        android:layout_height="19dp"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="10dp"
@@ -68,7 +68,136 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="@string/syaratwudu" />
+                        android:text="[1] Islam"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ini merupakan syarat mutlak, bahwa orang diluar Islam tidak bisa melakukan wudhu atau tidak sah wudhunya."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[2] tamyiz (bisa membedakan yang baik dan benar)"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Maksud tamyiz disini adalah orang yang berakal, sudah dewasa atau sudah bisa mengerti dan membedakan mana yang salah dan benar. Untuk itu, jika ada orang gila yang melakukan wudhu, maka tidak sah wudhunya"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[3] Bersih dari haidh dan nifas"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Maksudnya adalah air wudhu tersebut harus menyentuh kulit kita. Apabila di kulit kita ada sesuatu yang mengakibatkan air wudhu tersebut tidak menyentuh kulit kita, maka wudhunya tidak sah. Sesuatu yang menghalangi kulit kita seperti cat, getah karet atau lainnya kemudian menempel di kulit kita."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[4] Bersih dari yang menghalangi air meresap ke kulit"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Apabila ada duri atau benda lain yang tertancap pada bagian yang harus dibasuh, maka harus dicabut apabila sebagian dari duri tersebut tampak dari luar. Sebab ketika duri masuk ke dalam tubuh maka daging yang ditancapi duri itu menjadi anggota tubuh bagian luar yang harus dibasuh oleh air wudhu. Beda halnya jika tidak tampak, maka tidak wajib dicabut karena termasuk anggota tubuh bagian dalam"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[5] Tidak ada anggota wudhu yang merubah air suci"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Maksudnya adalah air wudhu tersebut harus menyentuh kulit kita. Apabila di kulit kita ada sesuatu yang mengakibatkan air wudhu tersebut tidak menyentuh kulit kita, maka wudhunya tidak sah. Sesuatu yang menghalangi kulit kita seperti cat, getah karet atau lainnya kemudian menempel di kulit kita.Apabila ada duri atau benda lain yang tertancap pada bagian yang harus dibasuh, maka harus dicabut apabila sebagian dari duri tersebut tampak dari luar. Sebab ketika duri masuk ke dalam tubuh maka daging yang ditancapi duri itu menjadi anggota tubuh bagian luar yang harus dibasuh oleh air wudhu. Beda halnya jika tidak tampak, maka tidak wajib dicabut karena termasuk anggota tubuh bagian dalam"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[6] Mengetahui wajib wudhu"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Apabila ada duri atau benda lain yang tertancap pada bagian yang harus dibasuh, maka harus dicabut apabila sebagian dari duri tersebut tampak dari luar. Sebab ketika duri masuk ke dalam tubuh maka daging yang ditancapi duri itu menjadi anggota tubuh bagian luar yang harus dibasuh oleh air wudhu. Beda halnya jika tidak tampak, maka tidak wajib dicabut karena termasuk anggota tubuh bagian dalam"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[7] Tidak meyakini sunnah sebagai wajib wudhu"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Untuk itu, disinilah pentingnya orang untuk mencari ilmu. Bagaimana dia tau tentang tatacara wudhu, yang membatalkan wudhu dan yang lainnya jika dia tidak pernah hadir ke tempat pengajian untuk mencari ilmu agama."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[8] Airnya suci"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[9] Masuk waktu"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sedangkan contoh dari air suci mensucikan adalah air yang bersumber dari bumi dan turun dari langit seperti air sumur, air sungai, air hujan, air laut, air danau, air embun, air salju, dan lain-lain."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="[10] Muwalah bagi yang sering berhadats"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contoh dari orang yang selalu berhadats adalah wanita yang istihâdhah (darah yang bukan haidh terus keluar dai rahimnya) atau orang yang menderita penyakit beser atau sering kencing."
+                        android:textSize="18sp" />
+
                 </LinearLayout>
 
             </LinearLayout>
