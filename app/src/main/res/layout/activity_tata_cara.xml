@@ -8,14 +8,21 @@
     android:orientation="vertical"
     tools:context=".view.tatacara.TataCaraActivity">
 
-    <Button
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="16dp"
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/btn_back"
-        android:onClick="btn_BackTatacara" />
+        android:padding="6dp">
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:background="@drawable/btn_back"
+            android:onClick="btn_BackTatacara" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

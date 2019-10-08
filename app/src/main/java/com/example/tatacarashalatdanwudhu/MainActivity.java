@@ -1,12 +1,16 @@
 package com.example.tatacarashalatdanwudhu;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
+import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.tatacarashalatdanwudhu.util.MessageAleertDialog;
 import com.example.tatacarashalatdanwudhu.view.tatacara.TataCaraActivity;
 import com.example.tatacarashalatdanwudhu.view.tentang.TentangActivity;
 import com.example.tatacarashalatdanwudhu.view.video.VideoActivity;
@@ -14,6 +18,8 @@ import com.example.tatacarashalatdanwudhu.view.video.VideoActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button tataCaraId, videoId, tentangId, tutupId;
+    Dialog dialog;
+    final Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,12 +57,30 @@ public class MainActivity extends AppCompatActivity {
                     goToActivity = new Intent(getApplicationContext(), TentangActivity.class);
                     startActivity(goToActivity);
                     break;
-                case R.id.tutup_id:
 
-                    MessageAleertDialog.alet_message(MainActivity.this, "Confirm", "Are you sure?");
+                case R.id.tutup_id:
+                    openDialog();
                     break;
 
             }
         }
     };
+
+    public void openDialog() {
+
+//        MessageAleertDialog messageAleertDialog = new MessageAleertDialog();
+//        messageAleertDialog.show(getSupportFragmentManager(), "xxx");
+
+        tutupId.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                dialog = new Dialog(context);
+                dialog.setContentView(R.layout.alert_dialog);
+
+
+            }
+        });
+        dialog.show();
+    }
 }

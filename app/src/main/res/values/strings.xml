@@ -71,4 +71,71 @@
 [7] Sekarang, usapkan bagian dalam jempol kiri ke bagian punggung jempol kanan. Selanjutnya, lakukan hal yang sama pada tangan kiri.\n
 [8] Terakhir, pertemukan kedua telapak tangan dan usap-usapkan di antara jari-jarinya.</string>
     <string name="cara_shalat">CARA SHALAT</string>
+    <string name="niatshalat_shubuh">Bacaan Niat Sholat Subuh Arab \n\n\     أُصَلِّى فَرْضَ الصُّبْح رَكَعتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى   \n\n <b>Bacaan Niat Sholat Subuh Latin</b> \n\n “Usholli Fardlon Shubhi Rok’ataini Mustaqbilal Qiblati Adaa-an Lillahi ta’aala” \n\n <b>Arti Niat Sholat Subuh</b> \n\n "Aku niat melakukan sholat fardu subuh 2 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta ala."</string>
+    <string name="takbiraturihram">Setelah membaca niat sholat kemudian dilanjutkan dengan membaca takbiratul Ihram <b>“Allahu Akbar”</b></string>
+    <string name="penjelasan_iftitah">Setelah takbiratul ihram, Anda harus membaca doa iftitah. Terdapat dua versi bacaan doa iftitah dan Anda bisa menggunakan salah satu diantaranya. \n\n\n<b>Bacaan Doa Iftitah</b></string>
+    <string name="penjelasan_membaca_alfatiha">Setelah membaca doa iftitah, kemudian dilanjutkan dengan membaca surah Al-Fatihah. \n\n\n<b>Bacaan Surah Al-Fatihah</b></string>
+    <string name="surah_alfatiha">
+        الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ الرَّحْمَٰنِ الرَّحِيم مَالِكِ يَوْمِ الدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ
+        \n\nAlhamdu lilla_hi rabbil ‘a_lamin. Ar Rahmaanirrahiim. Maaliki yaumiddiin. Iyyaaka na’budu wa iyyaaka nasta’iin. Ihdinash-shirraatal musthaqiim. Shiraathal ladziina an’amta ‘alaihim ghairil maghduubi ‘alaihim waladh-dhaalliin”\n\n
+        <b>Artinya:</b>\n\n “Segala puji bagi Allah, Tuhan seluruh alam, Yang Maha Pengasih, Lago Maha Penyayang, Pemilik hari pembalasan. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan. Tunjukilah kami jalan yang lurus (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.”</string>
+    <string name="penjelasan_ke5">Setelah membaca surat Al Fatihah, kemudian dilanjutkan dengan membaca Ayat Pada Al-Quran. Sangat disarankan membaca Surah-Surah pendek seperti Surat Al Ikhlas, Al ‘Asr, dan An Nasr.\n\n\n<b>Misalnya membaca surah Al-Ikhlas.</b></string>
+    <string name="bacaan_ruku">سُبْحَانَ رَبِّىَ الْعَظِيمِ
+\n\n
+\n\n“Subhaana robbiyal ‘adhiimi wabihamdih.”\n\n\n<b>Artinya:</b>\n\n “Mahasuci Tuhanku yang Mahaagung dan segala puji bagi-Nya.”</string>
+    <string name="penjelasan_iktiqal">Setelah ruku kemudian bangkit dari ruku dengan membaca <b>“SAMI’ALLOOHU LIMAN HAMIDAH”.</b>\n\n Kemudian setelah posisi berdiri membaca bacaan berikut</string>
+    <string name="doa_iktiqal">Bacaan ini diriwayatkan oleh Imam Muslim:\n\n
+        رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَوَاتِ وَالأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَىْءٍ بَعْدُ
+        \n\n“Rabbanaa Lakal Hamdu Mil’us Samaawati Wa Mil’ul Ardhi Wa Mil ‘Umaasyi’ta Min Syai’in Ba’du.” \n\n<b>Artinya:</b> “Wahai Tuhan kami, segala puji bagiMu, sepenuh langit dan sepenuh bumi dan sepenuh apa-apa yang Engkau kehendaki setelah itu.”</string>
+    <string name="penjelasan_sujud">Turun setelah membaca Iktidal, kemudian membaca takbir <b>(Allahu akbar).</b> Lalu dilanjutkan dengan melakukan sujud. \n\nKetika sujud membaca doa sujud, bacaan doa sujud dibaca sebanyak 3 kali. \n\n\nBacaan Sujud</string>
+    <string name="doa_sujud">سُبْحَانَ رَبِّىَ الْأَعْلَى وَبِحَمْدِهِ
+        \n\n“Subhaana robbiyal ‘a’la wabihamdih”\n\n
+        \n\n<b>Artinya:</b>\n\n “Mahasuci Tuhanku yang Mahatinggi dan segala puji bagi-Nya.”</string>
+    <string name="doa_iftirasy">رَبِّ اغْفِرْ لِيْ وَارْحَمْنِيْ وَاجْبُرْنِيْ وَارْفَعْنِيْ وَارْزُقْنِيْ وَاهْدِنِيْ وَعَافِنِيْ وَاعْفُ عَنِّيْ
+        \n\n“Rabbighfirlii warhamnii wajburnii warfa’nii warzuqnii wahdinii wa ‘aafinii wa’fu ‘annii.”
+        \n\n<b>Artinya:</b> \n\n“Ya Allah, ampunilah aku, kasihanilah aku, cukupilah aku, angkatlah derajatku, berikanlah rejeki kepadaku, berikanlah petunjuk kepadaku, berilah kesehatan kepadaku dan ampunilah aku.”</string>
+    <string name="penjelasan_sujud2">Setelah selesai membaca bacaan duduk iftirasy, kemudian membaca takbir <b>(Allahu akbar).</b> Lalu dilanjutkan dengan melakukan sujud kedua. \n\nKetika sujud kedua membaca doa sujud, bacaan doa sujud dibaca sebanyak 3 kali. \n\n\n<b>Bacaan Sujud</b></string>
+    <string name="penjelasan_sujudke2">Setelah sujud kedua, kemudian bangkit dan membaca Takbiratul Ihrom <b>“Allahu Akbar”</b> untuk bangkit berdiri untuk melanjutkan ke rakaat berikutnya. \n\nUntuk bacaan pada rakaat kedua dan seterusnya adalah sama, hanya tidak perlu membaca <b>“Doa Iftitah”.</b> \n\nPada sholat yang memiliki rakaat lebih dari 2, seperti sholat dhuhur, asyar, maghrib dan isya, setelah selesai melakukan sujud kedua pada rakaat kedua dilanjutkan dengan <b>“Duduk Tasyahud Awal”.</b> \n\n\Sedangkan untuk sholat subuh yang hanya memiliki 2 rakaat, setelah sujud kedua pada rakaat kedua, maka dilanjutkan dengan <b>“Duduk Tasyahud Akhir”.</b></string>
+    <string name="doa_tasyahud">اَلتَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ ِللهِ. اَلسَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ. اَلسَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِيْنَ. أَشْهدُ اَنْ لاَإِلَهَ إِلاَّ اللهُ وَاَشْهَدُ أَنَّ مُحَمَّدًا رَسُوْلُ اللهِ
+        \n\n“At-tahiyyaatul mubaarakatush shalawaatuth thayyibaatulillaahi. Assalaamu ‘alaika ayyuhan-nabiyyu wa rahmatullaahi wa barakaatuhu. Assalaamu ‘alainaa wa ‘alaa ‘ibaadillaahish-shaalihiina. Asyhadu an laa ilaaha illallaahu wa asyhadu anna Muhammadar Rasuulullaahi”.
+        \n\n<b>Artinya:</b> \n\n“Segala kehormatan, keberkahan, rahmat dan keselamatan, serta kebaikan hanyalah kepunyaan Allah. Keselamatan, rahmat dan berkah dari Allah semoga tetap tercurah atasmu, wahai Nabi (Muhammad). Keselamatan, rahmat dan berkah dari Allah semoga juga tercurah atas kami, dan juga atas seluruh hamba Allah yang sholeh. Aku bersaksi bahwa tiada Tuhan selain Allah dan bahwa Muhammad adalah utusan Allah.” \n\nPada sholat yang memiliki rakaat lebih dari 2, seperti sholat dhuhur, asyar, maghrib dan isya, setelah selesai melakukan <b>“Duduk Tasyahud Awal”</b> maka bangkit untuk melanjutkan ke rakaat berikutnya.</string>
+    <string name="penjelasan_duduktawaruk">Setelah sujud kedua pada rakaat terakhir, maka dilanjutkan dengan melakukan Duduk Tasyahud Akhir. \n\n<b>Bacaan duduk tasyahud akhir</b>\n\n Pada bacaan duduk tasyahud akhir sama dengan bacaan ketika duduk tasyahud awal. Hanya pada bacaan duduk tasyahud akhir ditambahkan dengan membaca <b>“Sholawat Atas Nabi”</b> setelah membaca bacaan tasyahud. \n\n\n<b>Bacaan sholawat nabi</b></string>
+    <string name="penjelasan_salawatnabi">“Allohumma solli ‘alaa muhammad, wa ‘alaa aali muhammad, kamaa sollaita ‘alaa aali ibroohim, wa baarik ‘alaa muhammad, wa ‘alaa aali muhammad, kamaa baarokta ‘alaa aali ibroohim, fil ‘aalamiina innaka hamiidummajiid”. \n\n\n<b>Artinya:</b>\n\n “Ya Allah, limpahkanlah rahmat dan keselamatan untuk Nabi Muhammad. Dan juga limpahkanlah rahmat dan keselamatan kepada keluarga Muhammad, sebagaimana telah Engkau limpahkan rahmat dan keselamatan kepada Ibrahim dan kepada keluarga Ibrahim. Limpahkanlah keberkahan kepada Muhammad dan kepada keluarga Muhammad, sebagaimana Engkau telah melimpahkan keberkahan kepada Ibrahim dan kepada keluarga Ibrahim. Di seluruh alam semesta, sesungguhnya Engkau adalah Maha Terpuji lagi Maha Agung.</string>
+    <string name="penjelasan_salam">Setelah membaca sholawat nabi, maka dilanjutkan dengan mengucapkan Salam ketika menoleh ke kanan dan ke kiri. \n\n<b>Bacaan Salam</b></string>
+    <string name="doa_salam">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ
+        \n\n“Assalaamu Alaikum Wa Rahmatullah”
+        \n\n<b>Artinya:</b>\n\n “Semoga keselamatan dan rahmat Allah dilimpahkan kepadamu.” \n\nSemua tata cara sholat harus dikerjakan secara berurutan dengan benar. \n\nJika tidak, maka sholat yang dilakukan hukumnya menjadi tidak sah. Jika Anda ragu tentang hitungan rakaat, Anda bisa melakukan Sujud Sahwi Oleh karena itu, Anda harus benar-benar mempelajari bacaan sholat dengan sebaik-baiknya dan melafalkan bacaan sholat sesuai dengan tajwidnya. \n\nSemua bacaan sholat hendaknya dilafalkan dengan sebaik-baiknya. Anda tidak boleh terburu-buru ketika membacanya. \n\nJika Anda terburu-buru dalam membacanya, maka bacaan Anda pun akan menjadi berantakan. Bagaimana jadinya kalau Anda berkomunikasi dengan Allah, namun Anda sendiri merasa tergesa-gesa.</string>
+    <string name="_1_niat">1. Niat</string>
+    <string name="penjelasan_niat">Tata cara pertama adalah melafalkan niat. Dalam membaca niat sholat bisa dibaca dengan suara lirih atau dibaca dalam hati. Dianjurkan untuk tidak mengucapkan niat dengan suara keras.</string>
+    <string name="a_niat_sholat_subuh"><b>a. Niat sholat Subuh.</b></string>
+    <string name="_2_takbiratul_ihrom">2. Takbiratul Ihrom</string>
+    <string name="_3_membaca_doa_iftitah">3. Membaca Doa Iftitah</string>
+    <string name="_4_membaca_surah_al_fatihah">4. Membaca Surah Al-Fatihah</string>
+    <string name="_5_membaca_salah_satu_surah_yang_ada_di_al_qur_an">5. Membaca salah satu surah yang ada di Al Qur’an</string>
+    <string name="_6_ruku">6. Ruku</string>
+    <string name="membaca_doa_ketika_ruku_bacaan_doa_ruku_dibaca_sebanyak_3_kali">Membaca doa ketika ruku, bacaan doa ruku dibaca sebanyak 3 kali.</string>
+    <string name="_7_i_tidal">7. I’tidal</string>
+    <string name="_8_sujud_pertama">8. Sujud Pertama</string>
+    <string name="_10_sujud_kedua">10. Sujud kedua</string>
+    <string name="_11_duduk_tasyahud_awal">11. Duduk Tasyahud Awal</string>
+    <string name="bacaan_duduk_tasyahud_awal">Bacaan Duduk Tasyahud Awal</string>
+    <string name="_12_duduk_tawaruk_atau_tasyahud_akhir">12. Duduk Tawaruk atau Tasyahud Akhir</string>
+    <string name="_13_salam">13. Salam</string>
+    <string name="b_niat_sholat_dhuhur">b. Niat Sholat Dhuhur</string>
+    <string name="c_niat_sholat_ashar">c. Niat Sholat Ashar</string>
+    <string name="doa_shalatdzuhur"><b>Bacaan Niat Sholat Dhuhur Arab</b>\n\n
+        اُصَلِّيْ فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى
+        \n\n<b>Bacaan Niat Sholat Dhuhur Latin</b>\n\n “Usholli Fardlon dhuhri Arba’a Rok’aataim Mustaqbilal Qiblati Adaa-an Lillahi ta’aala” \n\n<b>Arti Niat Sholat Dhuhur</b>\n\n “Aku niat melakukan sholat fardu dhuhur 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala”</string>
+    <string name="d_niat_sholat_maghrib">d. Niat Sholat Maghrib</string>
+    <string name="doa_shalat_isya">
+        <b>Bacaan Niat Sholat Isya Arab</b>\n\n
+        أُصَلِّى فَرْضَ العِشَاء ِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى
+        \n\n<b>Bacaan Niat Sholat Isya Latin</b>\n\n “Usholli Fardlol I’syaa-i Arba’a Roka’aataim Mustaqbilal Qiblati Adaa-an Lillahi ta’aala” \n\n<b>Arti Niat Sholat Isya</b>\n\n “Aku niat melakukan sholat fardu isya 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala” Niat sholat harus dilakukan sesuai dengan waktu sholat yang akan dijalankan masing-masing. Niat sholat bisa dilakukan di dalam hati atau dilafalkan dengan lembut. Niat sholat diatas adalah niat sholat ketika melakukan sholat sendirian. Untuk niat sholat yang dilakukan secara berjamaah ada tambahannya setelah bacaan “Adaa-an”. Tambahkan bacaan makmuman ” مَأْمُوْمًا “ ketika jadi makmum. Tambahkan bacaan imaman ” إِمَامًا “ jika jadi imam. Anda niatkan sholat yang Anda lakukan hanya karena Allah SWT dan semata-mata mengharapkan ridho Allah SWT.</string>
+    <string name="doa_shalat_margib">
+        Bacaan Niat Sholat Maghrib Arab\n\n
+        أُصَلِّى فَرْضَ المَغْرِبِ ثَلاَثَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى
+        \n\n<b>Bacaan Niat Sholat Maghrib Latin</b>\n\n “Usholli Fardlol Maghribi Tsalaatsa Roka’aataim Mustaqbilal Qiblati Adaa-an Lillahi ta’aala” \n\n<b>Arti Niat Sholat Maghrib</b>\n\n “Aku niat melakukan sholat fardu maghrib 3 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala”</string>
+    <string name="doa_shalat_ashar"><b>Bacaan Niat Sholat Ashar Arab</b>\n\n
+        أُصَلِّى فَرْضَ العَصْرِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى
+        \n\n<b>Bacaan Niat Sholat Ashar Latin</b>\n\n “Usholli Fardlol Ashri Arba’a Roka’aataim Mustaqbilal Qiblati Adaa-an Lillahi ta’aala” \n\n<b>Arti Niat Sholat Ashar</b>\n\n “Aku niat melakukan sholat fardu ashar 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala”</string>
 </resources>

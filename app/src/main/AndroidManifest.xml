@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SplashScreenActivity">
@@ -35,11 +35,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".view.tentang.TentangActivity" />
         </activity>
-        <activity android:name=".view.tentang.PengertianWudhuActivity"
-            android:supportsRtl="true"/>
-        <activity android:name=".view.video.VideoShalatActivity" />
-        <activity android:name=".view.video.VideoTayamumActivity" />
-        <activity android:name=".view.video.VideoWudhuActivity" />
+        <activity
+            android:name=".view.tentang.PengertianWudhuActivity"
+            android:supportsRtl="true" />
+        <activity
+            android:name=".view.video.VideoShalatActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".view.video.VideoTayamumActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.video.VideoWudhuActivity"
+            android:screenOrientation="landscape" />
         <activity android:name=".view.tatacara.shalat.ShalatActivity" />
         <activity android:name=".view.tatacara.tayamum.TayamumActivity" />
         <activity android:name=".MainActivity">

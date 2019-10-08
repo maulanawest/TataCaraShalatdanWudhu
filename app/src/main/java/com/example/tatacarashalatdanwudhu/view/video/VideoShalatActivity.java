@@ -15,14 +15,11 @@ public class VideoShalatActivity extends AppCompatActivity {
 
     private VideoView v_Shalat_id;
     private MediaController mediaController;
-    Button videoShalat_Id;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_shalat);
-
-        v_Shalat_id = (VideoView) findViewById(R.id.video_Shalat_id);
 
         playVideo();
 
@@ -35,12 +32,13 @@ public class VideoShalatActivity extends AppCompatActivity {
     }
 
     private void playVideo() {
-
+        v_Shalat_id = (VideoView) findViewById(R.id.video_Shalat_id);
         mediaController = new MediaController(this);
-        mediaController.setAnchorView(v_Shalat_id);
         v_Shalat_id.setMediaController(mediaController);
-        v_Shalat_id.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.tatacarashalatdanwudhu));;
-        //v_Shalat_id.start();
+        v_Shalat_id.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.latihanshalat4rakaat));;
+        v_Shalat_id.start();
     }
+
+
 
 }
