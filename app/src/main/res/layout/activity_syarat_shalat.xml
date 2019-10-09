@@ -67,7 +67,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="SYARAT SAH SHALAT"
+                        android:text="@string/syarat_sah_shalat"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -75,42 +75,42 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="[1] Orang tersebut harus beragama islam"
+                        android:text="@string/_1_orang_tersebut_harus_beragama_islam"
                         android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="[2] Berakal sehat"
+                        android:text="@string/_2_berakal_sehat"
                         android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="[3] Dewasa atau sudah baligh"
+                        android:text="@string/_3_dewasa_atau_sudah_baligh"
                         android:textSize="18sp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="[4] Telah mengetahui tentang hukum sholat serta tata cara sholat dengan baik"
+                        android:text="@string/_4_telah_mengetahui_tentang_hukum_sholat_serta_tata_cara_sholat_dengan_baik"
                         android:textSize="18sp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="[5] Bersih ataupun suci dari hadats dan najis"
+                        android:text="@string/_5_bersih_ataupun_suci_dari_hadats_dan_najis"
                         android:textSize="18sp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="[6] Sadar"
+                        android:text="@string/_6_sadar"
                         android:textSize="18sp"/>
                 </LinearLayout>
 

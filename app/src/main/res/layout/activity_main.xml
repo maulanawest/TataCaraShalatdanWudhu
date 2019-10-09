@@ -29,7 +29,7 @@
                 android:background="@drawable/bt_btn"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp"
-                android:text="Tata Cara" />
+                android:text="@string/tata_cara" />
 
             <Button
                 android:id="@+id/video_id"
@@ -37,7 +37,7 @@
                 android:layout_height="76dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bt_btn"
-                android:text="Video"
+                android:text="@string/video"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp" />
 
@@ -47,7 +47,7 @@
                 android:layout_height="76dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bt_btn"
-                android:text="Tentang"
+                android:text="@string/tentang"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp" />
 
@@ -57,7 +57,7 @@
                 android:layout_height="76dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bt_btn"
-                android:text="Tutup"
+                android:text="@string/tutup"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp" />
 

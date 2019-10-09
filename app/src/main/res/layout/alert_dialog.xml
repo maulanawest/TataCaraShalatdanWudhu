@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Confirm"
+            android:text="@string/title_confirmdialog"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:gravity="center"
-            android:text="Anda yakin ingin keluar dari aplikasi ini?"
+            android:text="@string/message_dialog"
             android:textAlignment="center"
             android:textSize="18sp" />
 

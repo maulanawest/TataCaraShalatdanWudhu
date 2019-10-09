@@ -43,7 +43,7 @@
                 android:layout_height="76dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bt_btn"
-                android:text="Syarat Berwudhu"
+                android:text="@string/syarat_berwudhu"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp" />
 
@@ -53,7 +53,7 @@
                 android:layout_height="76dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bt_btn"
-                android:text="Rukun Wudhu"
+                android:text="@string/rukun_wudhutitile"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp" />
 
@@ -63,7 +63,7 @@
                 android:layout_height="76dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bt_btn"
-                android:text="Cara Berwudhu"
+                android:text="@string/cara_berwudhu"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp" />
 

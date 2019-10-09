@@ -45,7 +45,7 @@
                 android:background="@drawable/bt_btn"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp"
-                android:text="Berwudhu"/>
+                android:text="@string/berwudhu"/>
 
             <Button
                 android:id="@+id/tayamum_Id"
@@ -53,7 +53,7 @@
                 android:layout_height="76dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bt_btn"
-                android:text="Tayamum"
+                android:text="@string/tayamum"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp" />
 
@@ -63,7 +63,7 @@
                 android:layout_height="76dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bt_btn"
-                android:text="Shalat"
+                android:text="@string/shalat"
                 android:textColor="@color/whitePrimary"
                 android:textSize="20sp" />
         </LinearLayout>

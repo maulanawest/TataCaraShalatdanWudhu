@@ -67,7 +67,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="SYARAT TAYAMUM"
+                        android:text="@string/syarat_tayamum"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -76,28 +76,28 @@
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
                         android:textSize="18sp"
-                        android:text="[1] Sudah masuk waktu shalat. Tayamum disyariatkan untuk orang yang terpaksa. sebelum masuk waktu shalat ia belum terpaksa,sebab shalat belum wajib atasnya ketika itu"/>
+                        android:text="@string/_1_sudah_masuk_waktu_shalat_tayamum_disyariatkan_untuk_orang_yang_terpaksa_sebelum_masuk_waktu_shalat_ia_belum_terpaksa_sebab_shalat_belum_wajib_atasnya_ketika_itu"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
                         android:textSize="18sp"
-                        android:text="[2] Sudah diusahakan mencari air, tetapi tidak dapat, sedangkan sudah masuk waktu shalat, alasannya adalah Firman Allah pada surat Al-maidah Ayat 6. kita disuruh bertayamum bila tidak ada air sesudah dicari dan kita yakin tidak ada, kecuali orang sakit yang tidak diperbolehkan memakai air, atau ia yakin tidak ada air disekitar tempat itu, maka mencari air tidak menjadi syarat baginya." />
+                        android:text="@string/_2_sudah_diusahakan_mencari_air_tetapi_tidak_dapat_sedangkan_sudah_masuk_waktu_shalat_alasannya_adalah_firman_allah_pada_surat_al_maidah_ayat_6_kita_disuruh_bertayamum_bila_tidak_ada_air_sesudah_dicari_dan_kita_yakin_tidak_ada_kecuali_orang_sakit_yang_tidak_diperbolehkan_memakai_air_atau_ia_yakin_tidak_ada_air_disekitar_tempat_itu_maka_mencari_air_tidak_menjadi_syarat_baginya" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
                         android:textSize="18sp"
-                        android:text="[3] Dengan tanah yang suci dan berdebu. menurut pendapat imam Syafi'i, tidak sah tayamum kecuali dengan tanah / debu." />
+                        android:text="@string/_3_dengan_tanah_yang_suci_dan_berdebu_menurut_pendapat_imam_syafi_i_tidak_sah_tayamum_kecuali_dengan_tanah_debu" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
                         android:textSize="18sp"
-                        android:text="[4] Menghilangkan najis. berarti sebelum melakukan tayamum itu hendaklah ia bersih dari najis"/>
+                        android:text="@string/_4_menghilangkan_najis_berarti_sebelum_melakukan_tayamum_itu_hendaklah_ia_bersih_dari_najis"/>
                 </LinearLayout>
 
             </LinearLayout>
