@@ -1,38 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="@drawable/bg_alertdialog"
+    android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Apa kamu yakin ingin keluar dari aplikasi ini"
-        android:textSize="18sp" />
+        android:padding="24dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_alertdialog"
-            android:text="Yes" />
+            android:gravity="center"
+            android:text="Confirm"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/dialogButtonOK"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_alertdialog"
-            android:text="Cancle" />
-    </LinearLayout>
-</LinearLayout>
+            android:layout_below="@id/title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="Anda yakin ingin keluar dari aplikasi ini?"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/message"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dialogButtonYES_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_alertdialog"
+                android:text="Yes" />
+
+            <Button
+                android:id="@+id/dialogButtonCANCLE_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_alertdialog"
+                android:text="Cancle" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
