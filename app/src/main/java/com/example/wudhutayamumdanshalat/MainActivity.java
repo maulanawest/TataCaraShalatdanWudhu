@@ -36,6 +36,9 @@ public class MainActivity extends RootAnim {
         findViewById(R.id.tentang_id).setOnClickListener(onClickListener);
         findViewById(R.id.tutup_id).setOnClickListener(onClickListener);
 
+        //initialize Button
+        //dialogButtonYES_ID = (Button) findViewById(R.id.dialogButtonYES_ID);
+        //dialogButtonCANCLE_ID = (Button) findViewById(R.id.dialogButtonCANCLE_ID);
 
 
     }
