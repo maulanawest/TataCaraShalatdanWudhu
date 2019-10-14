@@ -12,15 +12,18 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
+import com.example.wudhutayamumdanshalat.anim.RootAnim;
+import com.example.wudhutayamumdanshalat.dialog.DialogListener;
+import com.example.wudhutayamumdanshalat.dialog.DialogRedudant;
 import com.example.wudhutayamumdanshalat.view.tatacara.TataCaraActivity;
 import com.example.wudhutayamumdanshalat.view.tentang.TentangActivity;
 import com.example.wudhutayamumdanshalat.view.video.VideoActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends RootAnim {
 
     Button dialogButtonYES_ID, dialogButtonCANCLE_ID;
-    ;
-    Dialog dialog;
+
+    //Dialog dialog;
     final Context context = this;
 
     @Override
@@ -33,8 +36,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.tentang_id).setOnClickListener(onClickListener);
         findViewById(R.id.tutup_id).setOnClickListener(onClickListener);
 
-        dialogButtonYES_ID = (Button) findViewById(R.id.dialogButtonYES_ID);
-        dialogButtonCANCLE_ID = (Button) findViewById(R.id.dialogButtonCANCLE_ID);
+
 
     }
 
@@ -64,12 +66,41 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.tutup_id:
-                    openDialog();
+                    //openDialog();
+
+                    alertDialog();
                     break;
 
             }
         }
     };
+
+    //alert dialog option 1
+    private void alertDialog() {
+
+        new DialogRedudant.Builder(this)
+                .setTitle("Hai.")
+                .setMessage("Apakah kamu yakin ingin keluar dari aplikasi ini?")
+                .setNegativeBtnTex("Cancel")
+                .setNegativeBackground("#e3e3e3")
+                .setPositiveBtnText("Ok")
+                .setPositiveBackground("#ffffff")
+                .isCancellable(false)
+                .OnNegativeClickListener(new DialogListener() {
+                    @Override
+                    public void onClick() {
+
+                    }
+                })
+                .OnPositiveClickListener(new DialogListener() {
+                    @Override
+                    public void onClick() {
+                        MainActivity.this.finish();
+                    }
+                })
+                .build();
+
+    }
 
     //disable button back
     @Override
@@ -77,7 +108,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //dialog
+    /*
+    //dialog option 2
     public void openDialog() {
 
         dialog = new Dialog(MainActivity.this);
@@ -106,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
         });
         dialog.show();
     }
+    */
 
 
 }

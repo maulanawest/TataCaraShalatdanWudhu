@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_alertdialog"
+    android:background="@drawable/bg_dialog"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -16,9 +17,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/title_confirmdialog"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:text="Title" />
+        <!--android:text="@string/title_confirmdialog"-->
 
         <TextView
             android:id="@+id/message"
@@ -29,9 +31,11 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:gravity="center"
-            android:text="@string/message_dialog"
             android:textAlignment="center"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:text="Message" />
+        <!--android:text="@string/message_dialog"-->
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,22 +45,25 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/dialogButtonYES_ID"
+
+                android:id="@+id/positiveBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/bg_alertdialog"
-                android:text="Yes" />
+                android:layout_weight="50"
+                android:textAllCaps="false"
+                android:background="@drawable/bg_btndialog"
+                tools:text="Yes" />
 
             <Button
-                android:id="@+id/dialogButtonCANCLE_ID"
+                android:id="@+id/negativeBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/bg_alertdialog"
-                android:text="Cancle" />
+                android:layout_weight="50"
+                android:background="@drawable/bg_btndialog"
+                android:textAllCaps="false"
+                tools:text="Cancle" />
 
         </LinearLayout>
 
